@@ -328,7 +328,7 @@ echo("<!doctype html>
 
                 <!-- Botão de Edição -->
                 <div class='text-center mt-3'>
-                    <a href='../editar_perfil.html'>
+                    <a href='../index.html'>
                         <button class='btn btn-success'>Editar</button>
                     </a>
                 </div>

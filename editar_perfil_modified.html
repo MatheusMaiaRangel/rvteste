@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-3">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upload de Imagem</title>
+</head>
+<body>
+    <form action="PHP/upload.php" method="POST" enctype="multipart/form-data">
+        <label for="fileInput">Selecionar Imagem:</label>
+        <input type="file" name="image" id="fileInput" accept="image/*" required><br><br>
+        
+        <button type="submit" name="submit">Enviar Imagem</button>
+    </form>
+
+    <div id="status"></div>
+
+    <div id="imagePreview"></div> <!-- Aqui vamos exibir a imagem depois de carregada -->
+
+</body>
+</html>
